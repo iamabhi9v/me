@@ -17,7 +17,7 @@ const Work = () => (
         Living The Social Life <Badge>2021</Badge>
       </Title>
       <P>
-       "Living The Social Life" is a beautiful website based on HTML and CSS. It is basically a blog website for exploration of different cultures around the world.
+       &quot;Living The Social Life&quot; is a beautiful website based on HTML and CSS. It is basically a blog website for exploration of different cultures around the world.
       </P>
       <List ml={4} my={4}>
         <ListItem>

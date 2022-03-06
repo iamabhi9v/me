@@ -23,7 +23,7 @@ const Works = () => (
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
           <WorkGridItem id="moonlight" title="Moonlight" thumbnail={thumbMoonlight}>
-          Moonlight consists of mostly sunlight reflected from the parts of the Moon's surface where the Sun's light strikes. A website with PARALLAX effect.
+          Moonlight consists of mostly sunlight reflected from the parts of the Moon&apos;s surface where the Sun&apos;s light strikes. A website with PARALLAX effect.
           </WorkGridItem>
         </Section>
         <Section>
@@ -42,7 +42,7 @@ const Works = () => (
             title="Living The Social Life"
             thumbnail={thumbLiving}
           >
-            "Living The Social Life" is a website based on HTML and CSS.
+            &quot;Living The Social Life&quot; is a website based on HTML and CSS.
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>

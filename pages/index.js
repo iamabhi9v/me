@@ -77,10 +77,10 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-    I'm a software developer and a passionate learner who's always willing to learn and work across technologies and domains 💡. I love to explore new technologies and leverage them to solve real-life problems ✨. Apart from that I also love to guide and mentor newbies👨🏻‍💻. I'm deep into Web 🕸️ Development & Data Analysis.{' '}
+    I&apos;m a software developer and a passionate learner who&apos;s always willing to learn and work across technologies and domains 💡. I love to explore new technologies and leverage them to solve real-life problems ✨. Apart from that I also love to guide and mentor newbies👨🏻‍💻. I&apos;m deep into Web 🕸️ Development & Data Analysis.{' '}
         </Paragraph>
         <Box align="center" my={4}>
-          <NextLink href="/works" scroll={false}>
+          <NextLink href="/works" passHref={true} scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
               My portfolio
             </Button>

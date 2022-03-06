@@ -18,7 +18,7 @@ const Work = () => (
       </Title>
       <P>
       This website is about the virtual drumkit experience.
-      The drum kit, also called "the drums," is a group of percussion instruments arranged so that they can be played by one person. The basic drum kit is comprised of any number of other percussion instruments, but primarily of large and small drums and cymbals, with the special tonal qualities of each being used in a performance.
+      The drum kit, also called &quot;the drums,&quot; is a group of percussion instruments arranged so that they can be played by one person. The basic drum kit is comprised of any number of other percussion instruments, but primarily of large and small drums and cymbals, with the special tonal qualities of each being used in a performance.
       </P>
       <List ml={4} my={4}>
         <ListItem>

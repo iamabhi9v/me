@@ -11,7 +11,7 @@ const Work = () => (
         Moonlight <Badge>2021-</Badge>
       </Title>
       <P>
-      Moonlight consists of mostly sunlight (with little earthlight) reflected from the parts of the Moon's surface where the Sun's light strikes.
+      Moonlight consists of mostly sunlight (with little earthlight) reflected from the parts of the Moon&apos;s surface where the Sun&apos;s light strikes.
       Parallax scrolling is a web design technique in which the website background moves at a slower pace than the foreground. This results in a 3D effect as visitors scroll down the site, adding a sense of depth and creating a more immersive browsing experience.
       Parallax is based on optical illusion.
       </P>
