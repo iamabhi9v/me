@@ -128,7 +128,7 @@ const Home = () => (
           <Link href="https://steamcommunity.com/id/iamabhi9v/" target="_blank">
             Video Games
           </Link>
-          , Football,
+          , Football and
             Photography
         </Paragraph>
       </Section>
