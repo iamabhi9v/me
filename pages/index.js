@@ -138,7 +138,6 @@ const Home = () => (
           On the web
         </Heading>
         
-  
             <Link href="https://github.com/iamabhi9v" target="_blank">
               <Button
                 variant="ghost"
@@ -148,7 +147,6 @@ const Home = () => (
                 @iamabhi9v
               </Button>
             </Link>
-            
             
             <Link href="https://facebook.com/iamabhi9v" target="_blank">
               <Button
@@ -221,8 +219,6 @@ const Home = () => (
               
             </Link>
             
-           
-
         <Box align="center" my={4}>
             <Text fontSize={30} color="teal">
               Popular Works
