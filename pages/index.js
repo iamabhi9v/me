@@ -137,7 +137,7 @@ const Home = () => (
         <Heading as="h3" variant="section-title">
           On the web
         </Heading>
-        <SimpleGrid columns={[1, 2, 2]} gap={6}>
+        
   
             <Link href="https://github.com/iamabhi9v" target="_blank">
               <Button
@@ -148,7 +148,8 @@ const Home = () => (
                 @iamabhi9v
               </Button>
             </Link>
-          
+            
+            
             <Link href="https://facebook.com/iamabhi9v" target="_blank">
               <Button
                 variant="ghost"
@@ -158,7 +159,7 @@ const Home = () => (
                 @iamabhi9v
               </Button>
             </Link>
-           
+            
             <Link href="https://twitter.com/iamabhi9v" target="_blank">
               <Button
                 variant="ghost"
@@ -168,7 +169,7 @@ const Home = () => (
                 @iamabhi9v
               </Button>
             </Link>
-          
+            
             <Link href="https://instagram.com/iamabhi9v" target="_blank">
               <Button
                 variant="ghost"
@@ -178,7 +179,7 @@ const Home = () => (
                 @iamabhi9v
               </Button>
             </Link>
-
+            
             <Link href="https://www.linkedin.com/in/iamabhi9v/" target="_blank">
               <Button
                 variant="ghost"
@@ -219,8 +220,8 @@ const Home = () => (
               </Button>
               
             </Link>
-
-            </SimpleGrid>
+            
+           
 
         <Box align="center" my={4}>
             <Text fontSize={30} color="teal">
