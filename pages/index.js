@@ -1,4 +1,4 @@
-import NextLink from 'next/link'
+import NextLink from 'next/link';
 import {
   Link,
   Container,
@@ -9,17 +9,17 @@ import {
   useColorModeValue,
   chakra,
   Text
-} from '@chakra-ui/react'
-import { ChevronRightIcon } from '@chakra-ui/icons'
-import Paragraph from '../components/paragraph'
-import { BioSection, BioYear } from '../components/bio'
-import Layout from '../components/layouts/article'
-import Section from '../components/section'
-import { GridItem } from '../components/grid-item'
-import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoFacebook, IoLogoLinkedin, IoLogoReddit, IoLogoSteam, IoLogoTwitch } from 'react-icons/io5'
-import thumbUi from '../public/images/links/ui.png'
-import thumbMoonlight from '../public/images/works/moonlight.png'
-import Image from 'next/image'
+} from '@chakra-ui/react';
+import { ChevronRightIcon } from '@chakra-ui/icons';
+import Paragraph from '../components/paragraph';
+import { BioSection, BioYear } from '../components/bio';
+import Layout from '../components/layouts/article';
+import Section from '../components/section';
+import { GridItem } from '../components/grid-item';
+import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoFacebook, IoLogoLinkedin, IoLogoReddit, IoLogoSteam, IoLogoTwitch } from 'react-icons/io5';
+import thumbUi from '../public/images/links/ui.png';
+import thumbMoonlight from '../public/images/works/moonlight.png';
+import Image from 'next/image';
 
 const ProfileImage = chakra(Image, {
   shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
@@ -251,5 +251,5 @@ const Home = () => (
   </Layout>
 )
 
-export default Home
-export { getServerSideProps } from '../components/chakra'
+export default Home;
+export { getServerSideProps } from '../components/chakra';

@@ -1,5 +1,5 @@
-import { forwardRef } from 'react'
-import { Box, Spinner } from '@chakra-ui/react'
+import { forwardRef } from 'react';
+import { Box, Spinner } from '@chakra-ui/react';
 
 export const DogSpinner = () => (
   <Spinner
@@ -35,4 +35,4 @@ const Loader = () => {
   )
 }
 
-export default Loader
+export default Loader;

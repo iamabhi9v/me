@@ -4,11 +4,11 @@ import {
   Link,
   List,
   ListItem
-} from '@chakra-ui/react'
-import Layout from '../../components/layouts/article'
-import { ExternalLinkIcon } from '@chakra-ui/icons'
-import { Title, WorkImage, Meta } from '../../components/work'
-import P from '../../components/paragraph'
+} from '@chakra-ui/react';
+import Layout from '../../components/layouts/article';
+import { ExternalLinkIcon } from '@chakra-ui/icons';
+import { Title, WorkImage, Meta } from '../../components/work';
+import P from '../../components/paragraph';
 
 const Work = () => (
   <Layout title="DrumKit® Company">
@@ -24,8 +24,7 @@ const Work = () => (
         <ListItem>
           <Meta>Website</Meta>
           <Link href="https://drumkitcompany.github.io/main/">
-          https://drumkitcompany.github.io/main/
-            <ExternalLinkIcon mx="2px" />
+          https://drumkitcompany.github.io/main/<ExternalLinkIcon mx="2px" />
             </Link>
         </ListItem>
         <ListItem>
@@ -49,5 +48,5 @@ const Work = () => (
   </Layout>
 )
 
-export default Work
-export { getServerSideProps } from '../../components/chakra'
+export default Work;
+export { getServerSideProps } from '../../components/chakra';

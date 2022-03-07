@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import {
   Flex,
   Box,
@@ -7,7 +7,7 @@ import {
   FormLabel,
   Input,
   Button
-} from '@chakra-ui/react'
+} from '@chakra-ui/react';
 
   export default function Form() {
 

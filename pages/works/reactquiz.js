@@ -4,11 +4,11 @@ import {
   Link,
   List,
   ListItem
-} from '@chakra-ui/react'
-import Layout from '../../components/layouts/article'
-import { ExternalLinkIcon } from '@chakra-ui/icons'
-import { Title, WorkImage, Meta } from '../../components/work'
-import P from '../../components/paragraph'
+} from '@chakra-ui/react';
+import Layout from '../../components/layouts/article';
+import { ExternalLinkIcon } from '@chakra-ui/icons';
+import { Title, WorkImage, Meta } from '../../components/work';
+import P from '../../components/paragraph';
 
 const Work = () => (
   <Layout title="React Quiz">
@@ -21,8 +21,7 @@ const Work = () => (
         <ListItem>
           <Meta>Source</Meta>
           <Link href="https://github.com/ReactJsKit/React_Quiz">
-          https://github.com/ReactJsKit/React_Quiz
-            <ExternalLinkIcon mx="2px" />
+          https://github.com/ReactJsKit/React_Quiz<ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
@@ -44,5 +43,5 @@ const Work = () => (
   </Layout>
 )
 
-export default Work
-export { getServerSideProps } from '../../components/chakra'
+export default Work;
+export { getServerSideProps } from '../../components/chakra';

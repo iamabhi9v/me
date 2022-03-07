@@ -1,17 +1,17 @@
-import { Container, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
-import Layout from '../components/layouts/article'
-import Section from '../components/section'
-import { WorkGridItem } from '../components/grid-item'
+import { Container, Heading, SimpleGrid, Divider } from '@chakra-ui/react';
+import Layout from '../components/layouts/article';
+import Section from '../components/section';
+import { WorkGridItem } from '../components/grid-item';
 
-import thumbMoonlight from '../public/images/works/moonlight.png'
-import thumbFda from '../public/images/works/FDA.png'
-import thumbLiving from '../public/images/works/Living.png'
-import thumbGamezone from '../public/images/works/GM.png'
-import thumbReactquiz from '../public/images/works/reactquiz.png'
-import thumbGrocerybudredux from '../public/images/works/grocerybudredux.png'
-import thumbDrum from '../public/images/works/drumkitcompany.png'
-import thumbDice from '../public/images/works/dicekitcompany.png'
-import thumbStella from '../public/images/works/stella.png'
+import thumbMoonlight from '../public/images/works/moonlight.png';
+import thumbFda from '../public/images/works/FDA.png';
+import thumbLiving from '../public/images/works/Living.png';
+import thumbGamezone from '../public/images/works/GM.png';
+import thumbReactquiz from '../public/images/works/reactquiz.png';
+import thumbGrocerybudredux from '../public/images/works/grocerybudredux.png';
+import thumbDrum from '../public/images/works/drumkitcompany.png';
+import thumbDice from '../public/images/works/dicekitcompany.png';
+import thumbStella from '../public/images/works/stella.png';
 
 const Works = () => (
   <Layout title="Works">
@@ -110,5 +110,5 @@ const Works = () => (
   </Layout>
 )
 
-export default Works
-export { getServerSideProps } from '../components/chakra'
+export default Works;
+export { getServerSideProps } from '../components/chakra';

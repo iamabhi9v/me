@@ -4,11 +4,11 @@ import {
   Link,
   List,
   ListItem
-} from '@chakra-ui/react'
-import { ExternalLinkIcon } from '@chakra-ui/icons'
-import { Title, WorkImage, Meta } from '../../components/work'
-import P from '../../components/paragraph'
-import Layout from '../../components/layouts/article'
+} from '@chakra-ui/react';
+import { ExternalLinkIcon } from '@chakra-ui/icons';
+import { Title, WorkImage, Meta } from '../../components/work';
+import P from '../../components/paragraph';
+import Layout from '../../components/layouts/article';
 
 const Work = () => (
   <Layout title="Living The Social Life">
@@ -23,7 +23,7 @@ const Work = () => (
         <ListItem>
           <Meta>Website</Meta>
           <Link href="https://iamabhi9v.github.io/livingthesocialife/">
-          https://iamabhi9v.github.io/livingthesocialife/ <ExternalLinkIcon mx="2px" />
+          https://iamabhi9v.github.io/livingthesocialife/<ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
@@ -49,5 +49,5 @@ const Work = () => (
   </Layout>
 )
 
-export default Work
-export { getServerSideProps } from '../../components/chakra'
+export default Work;
+export { getServerSideProps } from '../../components/chakra';
