@@ -23,7 +23,7 @@ const Work = () => (
         <ListItem>
           <Meta>Website</Meta>
           <Link href="https://iamabhi9v.github.io/stellastudio/">
-          https://iamabhi9v.github.io/stellastudio/
+          https://iamabhi9v.github.io/stellastudio/ <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
