@@ -22,9 +22,9 @@ const Work = () => (
 
       <List ml={4} my={4}>
         <ListItem>
-          <Meta>Source</Meta>
-          <Link href="https://github.com/ReactJsKit/GroceryBud-REDUX">
-          https://github.com/ReactJsKit/GroceryBud-REDUX<ExternalLinkIcon mx="2px" />
+          <Meta>Website</Meta>
+          <Link href="https://grocerybudredux.netlify.app/">
+          https://grocerybudredux.netlify.app/<ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>

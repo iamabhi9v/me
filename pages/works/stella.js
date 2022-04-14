@@ -23,8 +23,8 @@ const Work = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://iamabhi9v.github.io/stellastudio/">
-          https://iamabhi9v.github.io/stellastudio/<ExternalLinkIcon mx="2px" />
+          <Link href="https://css3kit.github.io/stellastudio/">
+          https://css3kit.github.io/stellastudio/<ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>

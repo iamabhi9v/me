@@ -16,7 +16,7 @@ import { BioSection, BioYear } from '../components/bio';
 import Layout from '../components/layouts/article';
 import Section from '../components/section';
 import { GridItem } from '../components/grid-item';
-import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoFacebook, IoLogoLinkedin, IoLogoReddit, IoLogoSteam, IoLogoTwitch } from 'react-icons/io5';
+import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoFacebook, IoLogoLinkedin, IoLogoReddit, IoLogoSteam, IoLogoTwitch, IoLogoAmazon } from 'react-icons/io5';
 import thumbUi from '../public/images/links/ui.png';
 import thumbMoonlight from '../public/images/works/moonlight.png';
 import Image from 'next/image';
@@ -43,7 +43,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Abhinav Anand
           </Heading>
-          <p>Web Developer & Designer / Data Scientist / Video Gamer</p>
+          <p>Web Developer & Designer / Data Scientist / Video Gamer / Photographer</p>
         </Box>
         <Box
           flexShrink={0}
@@ -215,8 +215,17 @@ const Home = () => (
                 leftIcon={<IoLogoTwitch />}
               >
                 @iamabhi9v
+              </Button>  
+            </Link>
+
+            <Link href="https://www.amazon.in/gp/profile/amzn1.account.AH6XTJWGIIRK2PJ7GKRNCKPLWYQQ" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<IoLogoAmazon />}
+              >
+                @iamabhi9v
               </Button>
-              
             </Link>
             
         <Box align="center" my={4}>
@@ -228,7 +237,7 @@ const Home = () => (
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
 
           <GridItem
-            href="https://iamabhi9v.github.io/UI-Components/"
+            href="https://css3kit.github.io/UI-Components/"
             title="UI-Components"
             thumbnail={thumbUi}
           >
