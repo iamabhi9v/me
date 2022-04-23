@@ -43,7 +43,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Abhinav Anand
           </Heading>
-          <p>Web Developer & Designer / Data Scientist / Video Gamer / Photographer</p>
+          <p>Software Developer / Data Analyst / Actor & Film-maker / Photographer / Video Gamer</p>
         </Box>
         <Box
           flexShrink={0}
