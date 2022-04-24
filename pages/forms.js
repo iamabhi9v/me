@@ -9,7 +9,7 @@ import {
   Button
 } from '@chakra-ui/react';
 
-  export default function Form() {
+  export default function Forms() {
 
     const [query, setQuery] = useState({
       name: "",
@@ -47,7 +47,7 @@ import {
             <form onSubmit={formSubmit} >
               <FormControl isRequired>
                 <FormLabel>Full Name</FormLabel>
-                <Input type="info" name="name" placeholder="First Name" className="form-control" value={query.name} onChange={handleParam()}/>
+                <Input type="info" name="name" placeholder="Full Name" className="form-control" value={query.name} onChange={handleParam()}/>
               </FormControl>
               <FormControl mt={6} isRequired>
                 <FormLabel>Email</FormLabel>
