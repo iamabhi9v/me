@@ -13,6 +13,16 @@ import Layout from '../components/layouts/article';
 
   export default function Contact() {
 
+    // Button Function
+    const initialState = "Submit";
+    const [buttonText, setButtonText] = useState(initialState); //same as creating your state variable where "Next" is the default value for buttonText and setButtonText is the setter function for your state variable instead of setState
+    
+    const changeText = (text) => {
+      setButtonText(text);
+      setTimeout(() => setButtonText(initialState), [1000])
+    }
+    
+    // Form Function
     const [query, setQuery] = useState({
       name: "",
       email: ""
@@ -50,7 +60,7 @@ import Layout from '../components/layouts/article';
             <Heading>CONTACT</Heading>
           </Box>
           <Box my={4} textAlign="left">
-            <form onSubmit={formSubmit} >
+            <form onSubmit={formSubmit}>
               <FormControl isRequired>
                 <FormLabel>Full Name</FormLabel>
                 <Input type="info" name="name" placeholder="Full Name" className="form-control" value={query.name} onChange={handleParam()}/>
@@ -63,9 +73,11 @@ import Layout from '../components/layouts/article';
                 <FormLabel>Message</FormLabel>
                 <Input type="info" name="message" placeholder="Message" className="form-control" value={query.message} onChange={handleParam()}/>
               </FormControl>
-              <Button type="submit" background="teal" width="full" mt={4}>
-                Sign Up!
+    
+              <Button onClick={() => changeText("Submitted!")} type="submit" background="teal" width="full" mt={4}>
+              {buttonText}
               </Button>
+
             </form>
           </Box>
         </Box>
