@@ -75,3 +75,5 @@ import Layout from '../components/layouts/article';
   </Layout>
     );
   }
+
+  export { getServerSideProps } from '../components/chakra'
