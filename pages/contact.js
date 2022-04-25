@@ -41,7 +41,7 @@ import {
       <Flex width="full" align="center" justifyContent="center">
         <Box p={2}>
           <Box textAlign="center">
-            <Heading>Newsletter!</Heading>
+            <Heading>CONTACT</Heading>
           </Box>
           <Box my={4} textAlign="left">
             <form onSubmit={formSubmit} >
