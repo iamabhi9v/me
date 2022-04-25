@@ -19,7 +19,7 @@ import Layout from '../components/layouts/article';
     
     const changeText = (text) => {
       setButtonText(text);
-      setTimeout(() => setButtonText(initialState), [1000])
+      setTimeout(() => setButtonText(initialState), [2000])
     }
     
     // Form Function
