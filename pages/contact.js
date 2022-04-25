@@ -38,6 +38,10 @@ import {
     };
 
     return (
+
+    <Layout title="Contact">
+    <Container>
+      
       <Flex width="full" align="center" justifyContent="center">
         <Box p={2}>
           <Box textAlign="center">
@@ -64,5 +68,8 @@ import {
           </Box>
         </Box>
       </Flex>
+
+    </Container>
+  </Layout>
     );
   }
