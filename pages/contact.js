@@ -9,7 +9,7 @@ import {
   Button
 } from '@chakra-ui/react';
 
-  export default function Forms() {
+  export default function Contact() {
 
     const [query, setQuery] = useState({
       name: "",
