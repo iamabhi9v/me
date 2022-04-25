@@ -6,8 +6,10 @@ import {
   FormControl,
   FormLabel,
   Input,
-  Button
+  Button,
+  Container
 } from '@chakra-ui/react';
+import Layout from '../components/layouts/article';
 
   export default function Contact() {
 
@@ -41,7 +43,7 @@ import {
 
     <Layout title="Contact">
     <Container>
-      
+
       <Flex width="full" align="center" justifyContent="center">
         <Box p={2}>
           <Box textAlign="center">
