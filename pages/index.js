@@ -40,13 +40,11 @@ const Home = () => (
 
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
-          <Heading as="h2"
+          <Heading
            variant="page-title"
            bgColor="blue.400"
            bgClip="text"
-           bgGradient="linear(to-l, #79c2ff, #4a5888)"
-           //className="jumbotron-name-heading"
-           >
+           bgGradient="linear(to-r, #7928CA, #FF0080)">
             Abhinav Anand
           </Heading>
           <p>Software Developer / Data Analyst / Actor & Film-maker / Photographer / Video Gamer</p>

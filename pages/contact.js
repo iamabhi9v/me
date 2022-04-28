@@ -57,7 +57,11 @@ import Layout from '../components/layouts/article';
       <Flex width="full" align="center" justifyContent="center">
         <Box p={2}>
           <Box textAlign="center">
-            <Heading>CONTACT</Heading>
+            <Heading as="h2"
+           variant="page-title"
+           bgColor="blue.400"
+           bgClip="text"
+           bgGradient="linear(to-l, #79c2ff, #4a5888)">CONTACT</Heading>
           </Box>
           <Box my={4} textAlign="left">
             <form onSubmit={formSubmit}>
