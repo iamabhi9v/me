@@ -8,7 +8,7 @@ import theme from '../lib/theme';
 export default function Chakra({ cookies, children }) {
   const colorModeManager =
     typeof cookies === 'string'
-      ? cookieStorageManager(cookies)
+      ? cookieStorageManager
       : localStorageManager
 
   return (
