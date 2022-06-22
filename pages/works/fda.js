@@ -19,7 +19,7 @@ const Work = () => (
         Food Delivery App <Badge>2021</Badge>
       </Title>
       <P>
-Food delivery applications empower customers to look through a summary of restaurants and select the food from the app. Once customers pick their order, it gives them various mediums to pay for the same. The restaurant then accepts the order and packs it as indicated by the prerequisites given.
+        Food delivery applications empower customers to look through a summary of restaurants and select the food from the app. Once customers pick their order, it gives them various mediums to pay for the same. The restaurant then accepts the order and packs it as indicated by the prerequisites given.
       </P>
       <UnorderedList my={4}>
         <ListItem>Sushi shop recommendation based on photo</ListItem>
@@ -30,7 +30,7 @@ Food delivery applications empower customers to look through a summary of restau
         <ListItem>
           <Meta>Source</Meta>
           <Link href="https://github.com/ReactNativeKit/FDA_CodePush">
-          https://github.com/ReactNativeKit/FDA_CodePush<ExternalLinkIcon mx="2px" />
+            https://github.com/ReactNativeKit/FDA_CodePush<ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>

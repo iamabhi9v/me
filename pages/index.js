@@ -41,10 +41,10 @@ const Home = () => (
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading
-           variant="page-title"
-           bgColor="blue.400"
-           bgClip="text"
-           bgGradient="linear(to-r, #7928CA, #FF0080)">
+            variant="page-title"
+            bgColor="blue.400"
+            bgClip="text"
+            bgGradient="linear(to-r, #7928CA, #FF0080)">
             Abhinav Anand
           </Heading>
           <p>Software Developer / Data Analyst / Actor & Film-maker / Photographer / Video Gamer</p>
@@ -81,7 +81,7 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-    I&apos;m a software developer and a passionate learner who&apos;s always willing to learn and work across technologies and domains 💡. I love to explore new technologies and leverage them to solve real-life problems ✨. Apart from that I also love to guide and mentor newbies👨🏻‍💻. I&apos;m deep into Web 🕸️ Development & Data Analysis.{' '}
+          I&apos;m a software developer and a passionate learner who&apos;s always willing to learn and work across technologies and domains 💡. I love to explore new technologies and leverage them to solve real-life problems ✨. Apart from that I also love to guide and mentor newbies👨🏻‍💻. I&apos;m deep into Web 🕸️ Development & Data Analysis.{' '}
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" passHref={true} scroll={false}>
@@ -101,12 +101,12 @@ const Home = () => (
           Born in Delhi, India.
         </BioSection>
         <BioSection>
-            <BioYear>2014</BioYear>
-            10th at SAM International School, Delhi, India
+          <BioYear>2014</BioYear>
+          10th at SAM International School, Delhi, India
         </BioSection>
         <BioSection>
-            <BioYear>2017</BioYear>
-            12th at SAM International School, Delhi, India
+          <BioYear>2017</BioYear>
+          12th at SAM International School, Delhi, India
         </BioSection>
         <BioSection>
           <BioYear>2021</BioYear>
@@ -133,7 +133,7 @@ const Home = () => (
             Video Games
           </Link>
           , Football and
-            Photography
+          Photography
         </Paragraph>
       </Section>
 
@@ -141,101 +141,101 @@ const Home = () => (
         <Heading as="h3" variant="section-title">
           On the web
         </Heading>
-        
-            <Link href="https://github.com/iamabhi9v" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoLogoGithub />}
-              >
-                @iamabhi9v
-              </Button>
-            </Link>
-            
-            <Link href="https://facebook.com/iamabhi9v" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoLogoFacebook />}
-              >
-                @iamabhi9v
-              </Button>
-            </Link>
-            
-            <Link href="https://twitter.com/iamabhi9v" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoLogoTwitter />}
-              >
-                @iamabhi9v
-              </Button>
-            </Link>
-            
-            <Link href="https://instagram.com/iamabhi9v" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoLogoInstagram />}
-              >
-                @iamabhi9v
-              </Button>
-            </Link>
-            
-            <Link href="https://www.linkedin.com/in/iamabhi9v/" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoLogoLinkedin />}
-              >
-                @iamabhi9v
-              </Button>
-            </Link>
 
-            <Link href="https://www.reddit.com/user/iamabhi9v" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoLogoReddit />}
-              >
-                @iamabhi9v
-              </Button>
-            </Link>
+        <Link href="https://github.com/iamabhi9v" target="_blank">
+          <Button
+            variant="ghost"
+            colorScheme="teal"
+            leftIcon={<IoLogoGithub />}
+          >
+            @iamabhi9v
+          </Button>
+        </Link>
 
-            <Link href="https://steamcommunity.com/id/iamabhi9v/" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoLogoSteam />}
-              >
-                @iamabhi9v
-              </Button>
-            </Link>
+        <Link href="https://facebook.com/iamabhi9v" target="_blank">
+          <Button
+            variant="ghost"
+            colorScheme="teal"
+            leftIcon={<IoLogoFacebook />}
+          >
+            @iamabhi9v
+          </Button>
+        </Link>
 
-            <Link href="https://www.twitch.tv/iamabhi9v" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoLogoTwitch />}
-              >
-                @iamabhi9v
-              </Button>  
-            </Link>
+        <Link href="https://twitter.com/iamabhi9v" target="_blank">
+          <Button
+            variant="ghost"
+            colorScheme="teal"
+            leftIcon={<IoLogoTwitter />}
+          >
+            @iamabhi9v
+          </Button>
+        </Link>
 
-            <Link href="https://www.amazon.in/gp/profile/amzn1.account.AH6XTJWGIIRK2PJ7GKRNCKPLWYQQ" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoLogoAmazon />}
-              >
-                @iamabhi9v
-              </Button>
-            </Link>
-            
+        <Link href="https://instagram.com/iamabhi9v" target="_blank">
+          <Button
+            variant="ghost"
+            colorScheme="teal"
+            leftIcon={<IoLogoInstagram />}
+          >
+            @iamabhi9v
+          </Button>
+        </Link>
+
+        <Link href="https://www.linkedin.com/in/iamabhi9v/" target="_blank">
+          <Button
+            variant="ghost"
+            colorScheme="teal"
+            leftIcon={<IoLogoLinkedin />}
+          >
+            @iamabhi9v
+          </Button>
+        </Link>
+
+        <Link href="https://www.reddit.com/user/iamabhi9v" target="_blank">
+          <Button
+            variant="ghost"
+            colorScheme="teal"
+            leftIcon={<IoLogoReddit />}
+          >
+            @iamabhi9v
+          </Button>
+        </Link>
+
+        <Link href="https://steamcommunity.com/id/iamabhi9v/" target="_blank">
+          <Button
+            variant="ghost"
+            colorScheme="teal"
+            leftIcon={<IoLogoSteam />}
+          >
+            @iamabhi9v
+          </Button>
+        </Link>
+
+        <Link href="https://www.twitch.tv/iamabhi9v" target="_blank">
+          <Button
+            variant="ghost"
+            colorScheme="teal"
+            leftIcon={<IoLogoTwitch />}
+          >
+            @iamabhi9v
+          </Button>
+        </Link>
+
+        <Link href="https://www.amazon.in/gp/profile/amzn1.account.AH6XTJWGIIRK2PJ7GKRNCKPLWYQQ" target="_blank">
+          <Button
+            variant="ghost"
+            colorScheme="teal"
+            leftIcon={<IoLogoAmazon />}
+          >
+            @iamabhi9v
+          </Button>
+        </Link>
+
         <Box align="center" my={4}>
-            <Text fontSize={30} color="teal">
-              Popular Works
-            </Text>
+          <Text fontSize={30} color="teal">
+            Popular Works
+          </Text>
         </Box>
 
         <SimpleGrid columns={[1, 2, 2]} gap={6}>

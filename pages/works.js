@@ -23,7 +23,7 @@ const Works = () => (
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
           <WorkGridItem id="moonlight" title="Moonlight" thumbnail={thumbMoonlight}>
-          Moonlight consists of mostly sunlight reflected from the parts of the Moon&apos;s surface where the Sun&apos;s light strikes. A website with PARALLAX effect.
+            Moonlight consists of mostly sunlight reflected from the parts of the Moon&apos;s surface where the Sun&apos;s light strikes. A website with PARALLAX effect.
           </WorkGridItem>
         </Section>
         <Section>

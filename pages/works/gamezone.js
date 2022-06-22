@@ -18,13 +18,13 @@ const Work = () => (
         GameZone <Badge>2021</Badge>
       </Title>
       <P>
-      GameZone is a game review app where users can add and review various video games, and also add ratings to them.
+        GameZone is a game review app where users can add and review various video games, and also add ratings to them.
       </P>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Source</Meta>
           <Link href="https://github.com/ReactNativeKit/GameZone">
-          https://github.com/ReactNativeKit/GameZone<ExternalLinkIcon mx="2px" />
+            https://github.com/ReactNativeKit/GameZone<ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>

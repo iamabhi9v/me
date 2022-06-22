@@ -21,7 +21,7 @@ const Work = () => (
         <ListItem>
           <Meta>Source</Meta>
           <Link href="https://github.com/ReactJsKit/React_Quiz">
-          https://github.com/ReactJsKit/React_Quiz<ExternalLinkIcon mx="2px" />
+            https://github.com/ReactJsKit/React_Quiz<ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
@@ -38,7 +38,7 @@ const Work = () => (
         </ListItem>
       </List>
 
-        <WorkImage src="/images/works/reactquiz1.png" alt="React Quiz" />
+      <WorkImage src="/images/works/reactquiz1.png" alt="React Quiz" />
     </Container>
   </Layout>
 )

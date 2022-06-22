@@ -24,7 +24,7 @@ const Work = () => (
         <ListItem>
           <Meta>Website</Meta>
           <Link href="https://css3kit.github.io/stellastudio/">
-          https://css3kit.github.io/stellastudio/<ExternalLinkIcon mx="2px" />
+            https://css3kit.github.io/stellastudio/<ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
@@ -33,15 +33,15 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Languages/Library</Meta>
-         <span>HTML, CSS</span>
+          <span>HTML, CSS</span>
         </ListItem>
         <ListItem>
           <Meta>Technology</Meta>
           <span>Git Bash, NodeJs, Atom</span>
         </ListItem>
-        </List>
+      </List>
 
-        <WorkImage src="/images/works/stella1.png" alt="Stella Studio" />
+      <WorkImage src="/images/works/stella1.png" alt="Stella Studio" />
     </Container>
   </Layout>
 )

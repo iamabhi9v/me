@@ -78,7 +78,7 @@ const Navbar = props => {
           <LinkItem href="/contact" path={path}>
             Contact
           </LinkItem>
-              
+
           <LinkItem
             target="_blank"
             href="https://github.com/iamabhi9v/me"
@@ -116,7 +116,7 @@ const Navbar = props => {
                 <NextLink href="/contact" passHref>
                   <MenuItem as={Link}>Contact</MenuItem>
                 </NextLink>
-               
+
                 <MenuItem
                   as={Link}
                   href="https://github.com/iamabhi9v/me"

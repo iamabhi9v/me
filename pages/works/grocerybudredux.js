@@ -17,14 +17,14 @@ const Work = () => (
         Grocery Bud REDUX <Badge>2022</Badge>
       </Title>
       <P>
-        It is a Grocery Bud Website based on ReactJs as well as REDUX. In this website users can add, edit and delete items. 
+        It is a Grocery Bud Website based on ReactJs as well as REDUX. In this website users can add, edit and delete items.
       </P>
 
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
           <Link href="https://grocerybudredux.netlify.app/">
-          https://grocerybudredux.netlify.app/<ExternalLinkIcon mx="2px" />
+            https://grocerybudredux.netlify.app/<ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
@@ -34,11 +34,11 @@ const Work = () => (
         <ListItem>
           <Meta>Languages/Library</Meta>
           <span>ReactJs, REDUX</span>
-          </ListItem>
-          <ListItem>
+        </ListItem>
+        <ListItem>
           <Meta>Technology</Meta>
           <span>Git Bash, VsCode, GitHub</span>
-          </ListItem>
+        </ListItem>
       </List>
 
       <WorkImage src="/images/works/grocerybudredux1.png" alt="Grocery Bud REDUX" />
