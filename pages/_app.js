@@ -29,3 +29,4 @@ function Website({ Component, pageProps, router }) {
 }
 
 export default Website;
+export { getServerSideProps } from '../components/chakra';
