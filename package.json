@@ -13,21 +13,21 @@
   "author": "Abhinav Anand",
   "license": "MIT",
   "dependencies": {
-    "@chakra-ui/icons": "^2.0.2",
-    "@chakra-ui/react": "^2.2.1",
-    "@emotion/react": "^11.9.3",
-    "@emotion/styled": "^11.9.3",
-    "framer-motion": "^6.3.12",
-    "next": "^12.1.6",
+    "@chakra-ui/icons": "^2.0.6",
+    "@chakra-ui/react": "1.8.8",
+    "@emotion/react": "^11.10.0",
+    "@emotion/styled": "^11.10.0",
+    "framer-motion": "^7.1.0",
+    "next": "^12.2.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.4.0",
-    "sharp": "^0.30.6",
-    "three": "^0.141.0"
+    "sharp": "^0.30.7",
+    "three": "^0.143.0"
   },
   "devDependencies": {
-    "eslint": "^8.18.0",
-    "eslint-config-next": "^12.1.6",
+    "eslint": "^8.21.0",
+    "eslint-config-next": "^12.2.5",
     "prettier": "^2.7.1"
   }
 }
