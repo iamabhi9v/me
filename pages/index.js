@@ -8,8 +8,7 @@ import {
   Button,
   useColorModeValue,
   chakra,
-  Text,
-  Divider
+  Text
 } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
@@ -25,8 +24,7 @@ import {
   IoLogoLinkedin,
   IoLogoReddit,
   IoLogoSteam,
-  IoLogoTwitch,
-  IoLogoAmazon
+  IoLogoTwitch
 } from 'react-icons/io5'
 import thumbUi from '../public/images/links/ui.png'
 import thumbMoonlight from '../public/images/works/moonlight.png'
