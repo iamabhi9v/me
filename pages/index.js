@@ -1,4 +1,4 @@
-import NextLink from 'next/link';
+import NextLink from 'next/link'
 import {
   Link,
   Container,
@@ -8,18 +8,29 @@ import {
   Button,
   useColorModeValue,
   chakra,
-  Text
-} from '@chakra-ui/react';
-import { ChevronRightIcon } from '@chakra-ui/icons';
-import Paragraph from '../components/paragraph';
-import { BioSection, BioYear } from '../components/bio';
-import Layout from '../components/layouts/article';
-import Section from '../components/section';
-import { GridItem } from '../components/grid-item';
-import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoFacebook, IoLogoLinkedin, IoLogoReddit, IoLogoSteam, IoLogoTwitch, IoLogoAmazon } from 'react-icons/io5';
-import thumbUi from '../public/images/links/ui.png';
-import thumbMoonlight from '../public/images/works/moonlight.png';
-import Image from 'next/image';
+  Text,
+  Divider
+} from '@chakra-ui/react'
+import { ChevronRightIcon } from '@chakra-ui/icons'
+import Paragraph from '../components/paragraph'
+import { BioSection, BioYear } from '../components/bio'
+import Layout from '../components/layouts/article'
+import Section from '../components/section'
+import { GridItem } from '../components/grid-item'
+import {
+  IoLogoTwitter,
+  IoLogoInstagram,
+  IoLogoGithub,
+  IoLogoFacebook,
+  IoLogoLinkedin,
+  IoLogoReddit,
+  IoLogoSteam,
+  IoLogoTwitch,
+  IoLogoAmazon
+} from 'react-icons/io5'
+import thumbUi from '../public/images/links/ui.png'
+import thumbMoonlight from '../public/images/works/moonlight.png'
+import Image from 'next/image'
 
 const ProfileImage = chakra(Image, {
   shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
@@ -44,10 +55,14 @@ const Home = () => (
             variant="page-title"
             bgColor="blue.400"
             bgClip="text"
-            bgGradient="linear(to-r, #7928CA, #FF0080)">
+            bgGradient="linear(to-r, #7928CA, #FF0080)"
+          >
             Abhinav Anand
           </Heading>
-          <p>Software Developer / Data Analyst / Actor & Film-maker / Photographer / Video Gamer</p>
+          <p>
+            Software Developer / Data Analyst / Actor & Film-maker /
+            Photographer / Video Gamer
+          </p>
         </Box>
         <Box
           flexShrink={0}
@@ -63,12 +78,12 @@ const Home = () => (
             h="100px"
             display="inline-block"
             borderRadius="full"
-            overflow='hidden'
+            overflow="hidden"
           >
             <ProfileImage
               src="/images/abhinav.png"
               alt="Profile image"
-              borderRadius='full'
+              borderRadius="full"
               width="100%"
               height="100%"
             />
@@ -81,7 +96,11 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          I&apos;m a software developer and a passionate learner who&apos;s always willing to learn and work across technologies and domains 💡. I love to explore new technologies and leverage them to solve real-life problems ✨. Apart from that I also love to guide and mentor newbies👨🏻‍💻. I&apos;m deep into Web 🕸️ Development & Data Analysis.{' '}
+          I&apos;m a software developer and a passionate learner who&apos;s
+          always willing to learn and work across technologies and domains 💡. I
+          love to explore new technologies and leverage them to solve real-life
+          problems ✨. Apart from that I also love to guide and mentor
+          newbies👨🏻‍💻. I&apos;m deep into Web 🕸️ Development & Data Analysis.{' '}
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" passHref={true} scroll={false}>
@@ -110,16 +129,35 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2021</BioYear>
-          Completed the Bachelor&apos;s Program in the School of
-          Egineering and  Technology at K. R. Mangalam University, Gurugram, Haryana, India.
+          Completed the Bachelor&apos;s Program in the School of Egineering and
+          Technology at K. R. Mangalam University, Gurugram, Haryana, India.
         </BioSection>
+        <Heading marginTop={-2} as="h3" variant="section-title">
+          ________________________________________________
+        </Heading>
         <BioSection>
-          <BioYear>2021</BioYear>
+          <BioYear>Jul 2021 - Oct 2021</BioYear>
           Worked at HCL Technologies.
         </BioSection>
         <BioSection>
-          <BioYear>2021 to present</BioYear>
-          Works as a Software Developer at Crownstack Technologies.
+          <BioYear>Nov 2021 - Feb 2023</BioYear>
+          Worked as a React Native Developer at Crownstack Technologies.
+        </BioSection>
+        <BioSection>
+          <BioYear>Feb 2023 - Present</BioYear>
+          Works as a React Native Lead at Campus365 Edunet Private Limited.
+        </BioSection>
+      </Section>
+
+      <Section delay={0.2}>
+        <Heading as="h3" variant="section-title">
+          Awards & Recognition
+        </Heading>
+        <BioSection>
+          <BioYear>May 2022</BioYear>
+          Driving Success Award - This team award recognized the exceptional
+          performance that consistently exceeded goals and work expectations in
+          Q2 of 2022.
         </BioSection>
       </Section>
 
@@ -132,8 +170,7 @@ const Home = () => (
           <Link href="https://steamcommunity.com/id/iamabhi9v/" target="_blank">
             Video Games
           </Link>
-          , Football and
-          Photography
+          , Football and Photography
         </Paragraph>
       </Section>
 
@@ -203,11 +240,7 @@ const Home = () => (
         </Link>
 
         <Link href="https://steamcommunity.com/id/iamabhi9v/" target="_blank">
-          <Button
-            variant="ghost"
-            colorScheme="teal"
-            leftIcon={<IoLogoSteam />}
-          >
+          <Button variant="ghost" colorScheme="teal" leftIcon={<IoLogoSteam />}>
             @iamabhi9v
           </Button>
         </Link>
@@ -222,16 +255,6 @@ const Home = () => (
           </Button>
         </Link>
 
-        <Link href="https://www.amazon.in/gp/profile/amzn1.account.AH6XTJWGIIRK2PJ7GKRNCKPLWYQQ" target="_blank">
-          <Button
-            variant="ghost"
-            colorScheme="teal"
-            leftIcon={<IoLogoAmazon />}
-          >
-            @iamabhi9v
-          </Button>
-        </Link>
-
         <Box align="center" my={4}>
           <Text fontSize={30} color="teal">
             Popular Works
@@ -239,7 +262,6 @@ const Home = () => (
         </Box>
 
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
-
           <GridItem
             href="https://css3kit.github.io/UI-Components/"
             title="UI-Components"
@@ -255,11 +277,10 @@ const Home = () => (
             Moonlight website with PARALLAX effect.
           </GridItem>
         </SimpleGrid>
-
       </Section>
     </Container>
   </Layout>
 )
 
-export default Home;
-export { getServerSideProps } from '../components/chakra';
+export default Home
+export { getServerSideProps } from '../components/chakra'
