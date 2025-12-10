@@ -44,7 +44,7 @@ const Home = () => (
         textAlign="center"
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
       >
-        Hello, I&apos;m a software developer based in India!
+        Hello, I&apos;m a software engineer based in India!
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -57,10 +57,7 @@ const Home = () => (
           >
             Abhinav Anand
           </Heading>
-          <p>
-            Software Developer / Data Analyst / Actor & Film-maker /
-            Photographer / Video Gamer
-          </p>
+          <p>Software Engineer / Data Analyst / Photographer / GAMER</p>
         </Box>
         <Box
           flexShrink={0}
@@ -82,8 +79,8 @@ const Home = () => (
               src="/images/abhinav.png"
               alt="Profile image"
               borderRadius="full"
-              width="100%"
-              height="100%"
+              width={100}
+              height={100}
             />
           </Box>
         </Box>
@@ -94,11 +91,11 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          I&apos;m a software developer and a passionate learner who&apos;s
-          always willing to learn and work across technologies and domains 💡. I
-          love to explore new technologies and leverage them to solve real-life
-          problems ✨. Apart from that I also love to guide and mentor
-          newbies👨🏻‍💻. I&apos;m deep into Web 🕸️ Development & Data Analysis.{' '}
+          Motivated Team Leader aiming to excel as a developer and leader by
+          leveraging hands-on expertise in mobile development. Committed to
+          continuous learning, collaborating with experienced professionals, and
+          driving innovation through a strong foundation in technical mastery
+          and practical problem-solving.{' '}
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" passHref={true} scroll={false}>
@@ -130,20 +127,17 @@ const Home = () => (
           Completed the Bachelor&apos;s Program in the School of Egineering and
           Technology at K. R. Mangalam University, Gurugram, Haryana, India.
         </BioSection>
-        <Heading marginTop={-2} as="h3" variant="section-title">
-          ________________________________________________
-        </Heading>
         <BioSection>
           <BioYear>Jul 2021 - Oct 2021</BioYear>
-          Worked at HCL Technologies.
+          Worked as a System Desk Analyst at HCL Technologies.
         </BioSection>
         <BioSection>
           <BioYear>Nov 2021 - Feb 2023</BioYear>
-          Worked as a React Native Developer at Crownstack Technologies.
+          Worked as a Software Engineer at Crownstack Technologies.
         </BioSection>
         <BioSection>
           <BioYear>Feb 2023 - Present</BioYear>
-          Works as a React Native Lead at Campus365 Edunet Private Limited.
+          Works as a Team Leader at Campus365 Edunet Private Limited.
         </BioSection>
       </Section>
 
@@ -164,7 +158,7 @@ const Home = () => (
           I ♥
         </Heading>
         <Paragraph>
-          Films, Music,{' '}
+          Cinema, Music,{' '}
           <Link href="https://steamcommunity.com/id/iamabhi9v/" target="_blank">
             Video Games
           </Link>
@@ -254,7 +248,7 @@ const Home = () => (
         </Link>
 
         <Box align="center" my={4}>
-          <Text fontSize={30} color="teal">
+          <Text fontSize={30} color="teal" fontWeight={'extrabold'}>
             Popular Works
           </Text>
         </Box>

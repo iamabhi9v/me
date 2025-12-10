@@ -1,5 +1,5 @@
-import Logo from './logo';
-import NextLink from 'next/link';
+import Logo from './logo'
+import NextLink from 'next/link'
 import {
   Container,
   Box,
@@ -13,16 +13,17 @@ import {
   MenuButton,
   IconButton,
   useColorModeValue
-} from '@chakra-ui/react';
-import { HamburgerIcon } from '@chakra-ui/icons';
-import ThemeToggleButton from './theme-toggle-button';
-import { IoLogoGithub } from 'react-icons/io5';
+} from '@chakra-ui/react'
+import { HamburgerIcon } from '@chakra-ui/icons'
+import ThemeToggleButton from './theme-toggle-button'
+import { IoLogoGithub } from 'react-icons/io5'
 
 const LinkItem = ({ href, path, target, children, ...props }) => {
   const active = path === href
   const inactiveColor = useColorModeValue('gray200', 'whiteAlpha.900')
   return (
-    <NextLink href={href} passHref scroll={false}>
+    // ✅ FIX 1: Added legacyBehavior to prevent nested <a> tags
+    <NextLink href={href} passHref scroll={false} legacyBehavior>
       <Link
         p={2}
         bg={active ? 'grassTeal' : undefined}
@@ -74,11 +75,9 @@ const Navbar = props => {
           <LinkItem href="/works" path={path}>
             Works
           </LinkItem>
-
           <LinkItem href="/contact" path={path}>
             Contact
           </LinkItem>
-
           <LinkItem
             target="_blank"
             href="https://github.com/iamabhi9v/me"
@@ -95,7 +94,6 @@ const Navbar = props => {
 
         <Box flex={1} align="right">
           <ThemeToggleButton />
-
           <Box ml={2} display={{ base: 'inline-block', md: 'none' }}>
             <Menu isLazy id="navbar-menu">
               <MenuButton
@@ -105,22 +103,17 @@ const Navbar = props => {
                 aria-label="Options"
               />
               <MenuList>
-                <NextLink href="/" passHref>
+                {/* ✅ FIX 2: Added legacyBehavior to all mobile menu items */}
+                <NextLink href="/" passHref legacyBehavior>
                   <MenuItem as={Link}>About</MenuItem>
                 </NextLink>
-
-                <NextLink href="/works" passHref>
+                <NextLink href="/works" passHref legacyBehavior>
                   <MenuItem as={Link}>Works</MenuItem>
                 </NextLink>
-
-                <NextLink href="/contact" passHref>
+                <NextLink href="/contact" passHref legacyBehavior>
                   <MenuItem as={Link}>Contact</MenuItem>
                 </NextLink>
-
-                <MenuItem
-                  as={Link}
-                  href="https://github.com/iamabhi9v/me"
-                >
+                <MenuItem as={Link} href="https://github.com/iamabhi9v/me">
                   View Source
                 </MenuItem>
               </MenuList>
@@ -132,4 +125,4 @@ const Navbar = props => {
   )
 }
 
-export default Navbar;
+export default Navbar

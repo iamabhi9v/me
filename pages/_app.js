@@ -13,7 +13,7 @@ function Website({ Component, pageProps, router }) {
       <Fonts />
       <Layout router={router}>
         <AnimatePresence
-          exitBeforeEnter
+          mode="wait" // ✅ UPDATED: Replaced exitBeforeEnter
           initial={true}
           onExitComplete={() => {
             if (typeof window !== 'undefined') {
@@ -29,4 +29,5 @@ function Website({ Component, pageProps, router }) {
 }
 
 export default Website
+// ⚠️ We need to verify this file next:
 export { getServerSideProps } from '../components/chakra'
