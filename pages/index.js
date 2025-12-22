@@ -24,7 +24,8 @@ import {
   IoLogoLinkedin,
   IoLogoReddit,
   IoLogoSteam,
-  IoLogoTwitch
+  IoLogoTwitch,
+  IoLogoYoutube
 } from 'react-icons/io5'
 import thumbUi from '../public/images/links/ui.png'
 import thumbMoonlight from '../public/images/works/moonlight.png'
@@ -170,6 +171,16 @@ const Home = () => (
         <Heading as="h3" variant="section-title">
           On the web
         </Heading>
+        <Text
+          fontSize={18}
+          mb={4}
+          fontWeight={'bold'}
+          bgColor="blue.400"
+          bgClip="text"
+          bgGradient="linear(to-r, #ff0000ff, #0429f9ff)"
+        >
+          Personal
+        </Text>
 
         <Link href="https://github.com/iamabhi9v" target="_blank">
           <Button
@@ -244,6 +255,77 @@ const Home = () => (
             leftIcon={<IoLogoTwitch />}
           >
             @iamabhi9v
+          </Button>
+        </Link>
+
+        <Link href="https://www.twitch.tv/iamabhi9v" target="_blank">
+          <Button
+            variant="ghost"
+            colorScheme="teal"
+            leftIcon={<IoLogoTwitch />}
+          >
+            @iamabhi9v
+          </Button>
+        </Link>
+
+        <Link href="https://www.youtube.com/@iamabhi9v" target="_blank">
+          <Button
+            variant="ghost"
+            colorScheme="teal"
+            leftIcon={<IoLogoYoutube />}
+          >
+            @iamabhi9v
+          </Button>
+        </Link>
+
+        <Text
+          fontSize={18}
+          mb={4}
+          fontWeight={'bold'}
+          bgColor="blue.400"
+          bgClip="text"
+          bgGradient="linear(to-r, #7928CA, #FF0080)"
+        >
+          Motion Binge
+        </Text>
+
+        <Link href="https://instagram.com/motionbinge" target="_blank">
+          <Button
+            variant="ghost"
+            colorScheme="teal"
+            leftIcon={<IoLogoInstagram />}
+          >
+            @motionbinge
+          </Button>
+        </Link>
+
+        <Link href="https://www.youtube.com/@motionbinge" target="_blank">
+          <Button
+            variant="ghost"
+            colorScheme="teal"
+            leftIcon={<IoLogoYoutube />}
+          >
+            @motionbinge
+          </Button>
+        </Link>
+
+        <Link href="https://facebook.com/motionbinge" target="_blank">
+          <Button
+            variant="ghost"
+            colorScheme="teal"
+            leftIcon={<IoLogoFacebook />}
+          >
+            @motionbinge
+          </Button>
+        </Link>
+
+        <Link href="https://twitter.com/motionbinge" target="_blank">
+          <Button
+            variant="ghost"
+            colorScheme="teal"
+            leftIcon={<IoLogoTwitter />}
+          >
+            @motionbinge
           </Button>
         </Link>
 
