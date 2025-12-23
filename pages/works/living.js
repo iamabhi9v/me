@@ -1,14 +1,8 @@
-import {
-  Container,
-  Badge,
-  Link,
-  List,
-  ListItem
-} from '@chakra-ui/react';
-import { ExternalLinkIcon } from '@chakra-ui/icons';
-import { Title, WorkImage, Meta } from '../../components/work';
-import P from '../../components/paragraph';
-import Layout from '../../components/layouts/article';
+import { Container, Badge, Link, List, ListItem } from '@chakra-ui/react'
+import { ExternalLinkIcon } from '@chakra-ui/icons'
+import { Title, WorkImage, Meta } from '../../components/work'
+import P from '../../components/paragraph'
+import Layout from '../../components/layouts/article'
 
 const Work = () => (
   <Layout title="Living The Social Life">
@@ -17,13 +11,16 @@ const Work = () => (
         Living The Social Life <Badge>2021</Badge>
       </Title>
       <P>
-        &quot;Living The Social Life&quot; is a beautiful website based on HTML and CSS. It is basically a blog website for exploration of different cultures around the world.
+        &quot;Living The Social Life&quot; is a beautiful website based on HTML
+        and CSS. It is basically a blog website for exploration of different
+        cultures around the world.
       </P>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
           <Link href="https://css3kit.github.io/livingthesocialife/">
-            https://css3kit.github.io/livingthesocialife/<ExternalLinkIcon mx="2px" />
+            https://css3kit.github.io/livingthesocialife/
+            <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
@@ -40,14 +37,12 @@ const Work = () => (
         </ListItem>
       </List>
 
-      <WorkImage
-        src="/images/works/living1.png"
-        alt="Living The Social Life" />
+      <WorkImage src="/images/works/living1.png" alt="Living The Social Life" />
       <WorkImage src="/images/works/living2.png" alt="Living The Social Life" />
       <WorkImage src="/images/works/living3.png" alt="Living The Social Life" />
     </Container>
   </Layout>
 )
 
-export default Work;
-export { getServerSideProps } from '../../components/chakra';
+export default Work
+export { getServerSideProps } from '../../components/chakra'

@@ -1,14 +1,8 @@
-import {
-  Container,
-  Badge,
-  Link,
-  List,
-  ListItem
-} from '@chakra-ui/react';
-import Layout from '../../components/layouts/article';
-import { Title, WorkImage, Meta } from '../../components/work';
-import P from '../../components/paragraph';
-import { ExternalLinkIcon } from '@chakra-ui/icons';
+import { Container, Badge, Link, List, ListItem } from '@chakra-ui/react'
+import Layout from '../../components/layouts/article'
+import { Title, WorkImage, Meta } from '../../components/work'
+import P from '../../components/paragraph'
+import { ExternalLinkIcon } from '@chakra-ui/icons'
 
 const Work = () => (
   <Layout title="Stella Studio">
@@ -17,14 +11,16 @@ const Work = () => (
         Stella Studio <Badge>2020</Badge>
       </Title>
       <P>
-        Stella Studio is a website which is based on HTML and CSS only. This website is fully responsive.
+        Stella Studio is a website which is based on HTML and CSS only. This
+        website is fully responsive.
       </P>
 
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
           <Link href="https://css3kit.github.io/stellastudio/">
-            https://css3kit.github.io/stellastudio/<ExternalLinkIcon mx="2px" />
+            https://css3kit.github.io/stellastudio/
+            <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
@@ -46,5 +42,5 @@ const Work = () => (
   </Layout>
 )
 
-export default Work;
-export { getServerSideProps } from '../../components/chakra';
+export default Work
+export { getServerSideProps } from '../../components/chakra'

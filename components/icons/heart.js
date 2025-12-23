@@ -15,4 +15,4 @@ const Heart = props => (
   </svg>
 )
 
-export default Heart;
+export default Heart

@@ -26,6 +26,7 @@ const LinkItem = ({ href, path, target, children, ...props }) => {
     <NextLink href={href} passHref scroll={false} legacyBehavior>
       <Link
         p={2}
+        borderRadius={5}
         bg={active ? 'grassTeal' : undefined}
         color={active ? '#202023' : inactiveColor}
         target={target}

@@ -6,11 +6,11 @@ import {
   ListItem,
   SimpleGrid,
   UnorderedList
-} from '@chakra-ui/react';
-import Layout from '../../components/layouts/article';
-import { ExternalLinkIcon } from '@chakra-ui/icons';
-import { Title, WorkImage, Meta } from '../../components/work';
-import P from '../../components/paragraph';
+} from '@chakra-ui/react'
+import Layout from '../../components/layouts/article'
+import { ExternalLinkIcon } from '@chakra-ui/icons'
+import { Title, WorkImage, Meta } from '../../components/work'
+import P from '../../components/paragraph'
 
 const Work = () => (
   <Layout title="Food Delivery App">
@@ -19,7 +19,11 @@ const Work = () => (
         Food Delivery App <Badge>2021</Badge>
       </Title>
       <P>
-        Food delivery applications empower customers to look through a summary of restaurants and select the food from the app. Once customers pick their order, it gives them various mediums to pay for the same. The restaurant then accepts the order and packs it as indicated by the prerequisites given.
+        Food delivery applications empower customers to look through a summary
+        of restaurants and select the food from the app. Once customers pick
+        their order, it gives them various mediums to pay for the same. The
+        restaurant then accepts the order and packs it as indicated by the
+        prerequisites given.
       </P>
       <UnorderedList my={4}>
         <ListItem>Sushi shop recommendation based on photo</ListItem>
@@ -30,7 +34,8 @@ const Work = () => (
         <ListItem>
           <Meta>Source</Meta>
           <Link href="https://github.com/ReactNativeKit/FDA_CodePush">
-            https://github.com/ReactNativeKit/FDA_CodePush<ExternalLinkIcon mx="2px" />
+            https://github.com/ReactNativeKit/FDA_CodePush
+            <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
@@ -56,5 +61,5 @@ const Work = () => (
   </Layout>
 )
 
-export default Work;
-export { getServerSideProps } from '../../components/chakra';
+export default Work
+export { getServerSideProps } from '../../components/chakra'
